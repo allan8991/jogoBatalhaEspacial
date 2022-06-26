@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background:black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+#canvas{
+    border: 2px solid white; 
+    border-radius: 5px;
+}
+#placar{
+    position:absolute;
+    left: 34%;
+    top:4%;
+    background-color: white;
+    width: 146px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 5px;
+    color:blue;
+    box-shadow: -2px 3px 8px white;
+
+
+}
+#placar>span,#vida>span{
+    color:red;
+    
+}
+
+#vida{
+    position:absolute;
+    left: 49%;
+    top:5%;
+    background-color: green;
+    height: 15px;
+    line-height: 25px;
+    text-align: left;
+    padding-left:5px;
+    border-radius: 5px;
+    
+    
+    
+
+}
+.vida{
+    position:absolute;
+    left: 46%;
+    top:4%;
+    color:white;
+    font-size: 20px;
+
+}
